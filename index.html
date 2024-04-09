@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <form id="form" onsubmit="return validateForm()">
+        <label for="name"> Name</label>
+        <input type="text" id="nom" placeholder="Entre le nom">
+        <span id="nameError" class="error"></span><br><br>
+        <label>Email Addresse</label>
+        <input type="email" id="email" placeholder="Entre votre email">
+        <span id="emailError" class="error"></span><br><br>
+        <label>Password</label>
+        <input type="password" id="psw" placeholder="Entre votre mode passe">
+        <span id="modeError" class="error"></span><br><br>
+        <label> Birth Date</label>
+        <input type="month" id="birth">
+        <span id="birthError" class="error"></span><br><br>
+        <button > submit</button>
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>
